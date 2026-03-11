@@ -1,0 +1,8 @@
+scenario,n_trials,success_rate_%,cost_mean_bps,cost_std_bps,cost_VaR95_bps,latency_mean_s,latency_p95_s,path_stability_%
+Baseline,1000,98.5,13.0,0.0,13.0,35.0,35.0,98.5
+FX Shock (Mild),1000,98.8,13.0,0.0,13.0,35.0,35.0,98.8
+FX Shock (Severe),1000,99.1,28.03,4.52,35.12,39.1,45.0,58.1
+Liquidity Drought (Mild),1000,98.9,13.0,0.0,13.0,35.0,35.0,98.9
+Liquidity Drought (Severe),1000,99.2,13.0,0.0,13.0,35.0,35.0,99.2
+Network Congestion,1000,99.1,20.51,3.39,25.29,139.7,217.1,61.6
+Systemic Crisis,1000,99.1,25.64,4.68,31.43,118.9,175.5,63.2
